@@ -13,14 +13,19 @@
 		45977F2C18796E3900F944CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45977F2A18796E3900F944CE /* InfoPlist.strings */; };
 		45977F2E18796E3900F944CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45977F2D18796E3900F944CE /* main.m */; };
 		45977F3218796E3900F944CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45977F3118796E3900F944CE /* AppDelegate.m */; };
-		45977F3518796E3900F944CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45977F3318796E3900F944CE /* Main.storyboard */; };
-		45977F3818796E3900F944CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45977F3718796E3900F944CE /* ViewController.m */; };
 		45977F3A18796E3900F944CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45977F3918796E3900F944CE /* Images.xcassets */; };
 		45977F4118796E3900F944CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45977F4018796E3900F944CE /* XCTest.framework */; };
 		45977F4218796E3900F944CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45977F2118796E3900F944CE /* Foundation.framework */; };
 		45977F4318796E3900F944CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45977F2518796E3900F944CE /* UIKit.framework */; };
 		45977F4B18796E3900F944CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45977F4918796E3900F944CE /* InfoPlist.strings */; };
 		45977F4D18796E3900F944CE /* _4meNewideaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45977F4C18796E3900F944CE /* _4meNewideaTests.m */; };
+		45977F6018796F0400F944CE /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 45977F5718796F0400F944CE /* bar.png */; };
+		45977F6318796F0400F944CE /* TaskBarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45977F5B18796F0400F944CE /* TaskBarTableViewCell.m */; };
+		45977F6418796F0400F944CE /* TaskBarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45977F5C18796F0400F944CE /* TaskBarTableViewCell.xib */; };
+		45977F6518796F0400F944CE /* TaskTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45977F5E18796F0400F944CE /* TaskTableViewController.m */; };
+		45977F6618796F0400F944CE /* TaskTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45977F5F18796F0400F944CE /* TaskTableViewController.xib */; };
+		45977F6A1879727500F944CE /* TaskBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45977F681879727500F944CE /* TaskBarViewController.m */; };
+		45977F6B1879727500F944CE /* TaskBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45977F691879727500F944CE /* TaskBarViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +49,22 @@
 		45977F2F18796E3900F944CE /* 24meNewidea-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "24meNewidea-Prefix.pch"; sourceTree = "<group>"; };
 		45977F3018796E3900F944CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		45977F3118796E3900F944CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		45977F3418796E3900F944CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		45977F3618796E3900F944CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		45977F3718796E3900F944CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		45977F3918796E3900F944CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		45977F3F18796E3900F944CE /* 24meNewideaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 24meNewideaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45977F4018796E3900F944CE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		45977F4818796E3900F944CE /* 24meNewideaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "24meNewideaTests-Info.plist"; sourceTree = "<group>"; };
 		45977F4A18796E3900F944CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45977F4C18796E3900F944CE /* _4meNewideaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4meNewideaTests.m; sourceTree = "<group>"; };
+		45977F5718796F0400F944CE /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		45977F5A18796F0400F944CE /* TaskBarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskBarTableViewCell.h; sourceTree = "<group>"; };
+		45977F5B18796F0400F944CE /* TaskBarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskBarTableViewCell.m; sourceTree = "<group>"; };
+		45977F5C18796F0400F944CE /* TaskBarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskBarTableViewCell.xib; sourceTree = "<group>"; };
+		45977F5D18796F0400F944CE /* TaskTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskTableViewController.h; sourceTree = "<group>"; };
+		45977F5E18796F0400F944CE /* TaskTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskTableViewController.m; sourceTree = "<group>"; };
+		45977F5F18796F0400F944CE /* TaskTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskTableViewController.xib; sourceTree = "<group>"; };
+		45977F671879727500F944CE /* TaskBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskBarViewController.h; sourceTree = "<group>"; };
+		45977F681879727500F944CE /* TaskBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskBarViewController.m; sourceTree = "<group>"; };
+		45977F691879727500F944CE /* TaskBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaskBarViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,13 +124,21 @@
 		45977F2718796E3900F944CE /* 24meNewidea */ = {
 			isa = PBXGroup;
 			children = (
+				45977F5718796F0400F944CE /* bar.png */,
+				45977F5A18796F0400F944CE /* TaskBarTableViewCell.h */,
+				45977F5B18796F0400F944CE /* TaskBarTableViewCell.m */,
+				45977F5C18796F0400F944CE /* TaskBarTableViewCell.xib */,
+				45977F5D18796F0400F944CE /* TaskTableViewController.h */,
+				45977F5E18796F0400F944CE /* TaskTableViewController.m */,
+				45977F5F18796F0400F944CE /* TaskTableViewController.xib */,
+				45977F5618796EA900F944CE /* TaskTableViewController */,
 				45977F3018796E3900F944CE /* AppDelegate.h */,
 				45977F3118796E3900F944CE /* AppDelegate.m */,
-				45977F3318796E3900F944CE /* Main.storyboard */,
-				45977F3618796E3900F944CE /* ViewController.h */,
-				45977F3718796E3900F944CE /* ViewController.m */,
 				45977F3918796E3900F944CE /* Images.xcassets */,
 				45977F2818796E3900F944CE /* Supporting Files */,
+				45977F671879727500F944CE /* TaskBarViewController.h */,
+				45977F681879727500F944CE /* TaskBarViewController.m */,
+				45977F691879727500F944CE /* TaskBarViewController.xib */,
 			);
 			path = 24meNewidea;
 			sourceTree = "<group>";
@@ -150,6 +170,13 @@
 				45977F4918796E3900F944CE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45977F5618796EA900F944CE /* TaskTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TaskTableViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45977F6018796F0400F944CE /* bar.png in Resources */,
+				45977F6B1879727500F944CE /* TaskBarViewController.xib in Resources */,
+				45977F6618796F0400F944CE /* TaskTableViewController.xib in Resources */,
+				45977F6418796F0400F944CE /* TaskBarTableViewCell.xib in Resources */,
 				45977F3A18796E3900F944CE /* Images.xcassets in Resources */,
 				45977F2C18796E3900F944CE /* InfoPlist.strings in Resources */,
-				45977F3518796E3900F944CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45977F3818796E3900F944CE /* ViewController.m in Sources */,
+				45977F6318796F0400F944CE /* TaskBarTableViewCell.m in Sources */,
+				45977F6A1879727500F944CE /* TaskBarViewController.m in Sources */,
 				45977F3218796E3900F944CE /* AppDelegate.m in Sources */,
+				45977F6518796F0400F944CE /* TaskTableViewController.m in Sources */,
 				45977F2E18796E3900F944CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,14 +312,6 @@
 				45977F2B18796E3900F944CE /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		45977F3318796E3900F944CE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				45977F3418796E3900F944CE /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		45977F4918796E3900F944CE /* InfoPlist.strings */ = {
