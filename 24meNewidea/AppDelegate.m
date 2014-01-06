@@ -9,9 +9,16 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+@synthesize navController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    taskTableViewController = [[TaskTableViewController alloc]initWithStyle:UITableViewStylePlain];
+    self.navController=[[UINavigationController alloc]initWithRootViewController:taskTableViewController];
+    self.window.rootViewController = navController;
+    [self.window makeKeyAndVisible];
+
     // Override point for customization after application launch.
     return YES;
 }

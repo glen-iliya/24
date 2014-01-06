@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TaskTableViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    TaskTableViewController* taskTableViewController;
+}
 @property (strong, nonatomic) UIWindow *window;
+@property(nonatomic, retain) UINavigationController *navController;
 
 @end
